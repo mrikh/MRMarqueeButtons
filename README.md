@@ -12,7 +12,7 @@ To use this, simply download the whole project and drag and drop the marqueeButt
 
 ![Alt Text](https://thumbs.gfycat.com/WhichOpenCrustacean-size_restricted.gif)
 
-######Use the below code segment anywhere to show the pop over:
+######Use the below code segment anywhere to show the marquee animation:
     
     NSArray *stringsArray = @[@"Hello",@"Work!",@"OMG",@"Is it fine?",@"Please :D"];
     
@@ -22,7 +22,7 @@ To use this, simply download the whole project and drag and drop the marqueeButt
     
     [labels startAnimating];
    
-To call the delegate-
+######To call the delegate-
 
     -(void)buttonPressed:(UIButton *)sender{
     
