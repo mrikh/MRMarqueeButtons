@@ -11,6 +11,8 @@ To use this, simply download the whole project and drag and drop the marqueeButt
 ##How to:-
 You can show the labels on any view you desire and it will display a sort of ticker based on an array of strings that you pass. It will adjust itself to fit across the whole width and display all the strings once. Now as they are buttons, you need to implement the delegate to get which button is pressed. (They don't have tags but you can compare the title label :D).
 
+![Alt Text](https://thumbs.gfycat.com/WhichOpenCrustacean-size_restricted.gif)
+
 ######Use the below code segment anywhere to show the pop over:
     
     NSArray *stringsArray = @[@"Hello",@"Work!",@"OMG",@"Is it fine?",@"Please :D"];
