@@ -1,0 +1,543 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		46A14CE01DD1D67500A01AF6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 46A14CDF1DD1D67500A01AF6 /* main.m */; };
+		46A14CE31DD1D67500A01AF6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 46A14CE21DD1D67500A01AF6 /* AppDelegate.m */; };
+		46A14CE61DD1D67500A01AF6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 46A14CE51DD1D67500A01AF6 /* ViewController.m */; };
+		46A14CE91DD1D67500A01AF6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46A14CE71DD1D67500A01AF6 /* Main.storyboard */; };
+		46A14CEB1DD1D67500A01AF6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46A14CEA1DD1D67500A01AF6 /* Assets.xcassets */; };
+		46A14CEE1DD1D67500A01AF6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46A14CEC1DD1D67500A01AF6 /* LaunchScreen.storyboard */; };
+		46A14CF91DD1D67500A01AF6 /* marqueeLabelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 46A14CF81DD1D67500A01AF6 /* marqueeLabelTests.m */; };
+		46A14D041DD1D67500A01AF6 /* marqueeLabelUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 46A14D031DD1D67500A01AF6 /* marqueeLabelUITests.m */; };
+		46A14D141DD1D71500A01AF6 /* MRMarqueeButtons.m in Sources */ = {isa = PBXBuildFile; fileRef = 46A14D131DD1D71500A01AF6 /* MRMarqueeButtons.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		46A14CF51DD1D67500A01AF6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 46A14CD31DD1D67400A01AF6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 46A14CDA1DD1D67400A01AF6;
+			remoteInfo = marqueeLabel;
+		};
+		46A14D001DD1D67500A01AF6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 46A14CD31DD1D67400A01AF6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 46A14CDA1DD1D67400A01AF6;
+			remoteInfo = marqueeLabel;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		46A14CDB1DD1D67400A01AF6 /* Marquee Buttons.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Marquee Buttons.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		46A14CDF1DD1D67500A01AF6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		46A14CE11DD1D67500A01AF6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		46A14CE21DD1D67500A01AF6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		46A14CE41DD1D67500A01AF6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		46A14CE51DD1D67500A01AF6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		46A14CE81DD1D67500A01AF6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		46A14CEA1DD1D67500A01AF6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		46A14CED1DD1D67500A01AF6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		46A14CEF1DD1D67500A01AF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46A14CF41DD1D67500A01AF6 /* Marquee ButtonsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Marquee ButtonsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		46A14CF81DD1D67500A01AF6 /* marqueeLabelTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = marqueeLabelTests.m; sourceTree = "<group>"; };
+		46A14CFA1DD1D67500A01AF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46A14CFF1DD1D67500A01AF6 /* Marquee ButtonsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Marquee ButtonsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		46A14D031DD1D67500A01AF6 /* marqueeLabelUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = marqueeLabelUITests.m; sourceTree = "<group>"; };
+		46A14D051DD1D67500A01AF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46A14D121DD1D71500A01AF6 /* MRMarqueeButtons.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRMarqueeButtons.h; sourceTree = "<group>"; };
+		46A14D131DD1D71500A01AF6 /* MRMarqueeButtons.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRMarqueeButtons.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		46A14CD81DD1D67400A01AF6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46A14CF11DD1D67500A01AF6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46A14CFC1DD1D67500A01AF6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		46A14CD21DD1D67400A01AF6 = {
+			isa = PBXGroup;
+			children = (
+				46A14CDD1DD1D67500A01AF6 /* marqueeButton */,
+				46A14CF71DD1D67500A01AF6 /* marqueeLabelTests */,
+				46A14D021DD1D67500A01AF6 /* marqueeLabelUITests */,
+				46A14CDC1DD1D67400A01AF6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		46A14CDC1DD1D67400A01AF6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				46A14CDB1DD1D67400A01AF6 /* Marquee Buttons.app */,
+				46A14CF41DD1D67500A01AF6 /* Marquee ButtonsTests.xctest */,
+				46A14CFF1DD1D67500A01AF6 /* Marquee ButtonsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		46A14CDD1DD1D67500A01AF6 /* marqueeButton */ = {
+			isa = PBXGroup;
+			children = (
+				46A14D111DD1D6FE00A01AF6 /* Marquee Buttons */,
+				46A14CE11DD1D67500A01AF6 /* AppDelegate.h */,
+				46A14CE21DD1D67500A01AF6 /* AppDelegate.m */,
+				46A14CE41DD1D67500A01AF6 /* ViewController.h */,
+				46A14CE51DD1D67500A01AF6 /* ViewController.m */,
+				46A14CE71DD1D67500A01AF6 /* Main.storyboard */,
+				46A14CEA1DD1D67500A01AF6 /* Assets.xcassets */,
+				46A14CEC1DD1D67500A01AF6 /* LaunchScreen.storyboard */,
+				46A14CEF1DD1D67500A01AF6 /* Info.plist */,
+				46A14CDE1DD1D67500A01AF6 /* Supporting Files */,
+			);
+			name = marqueeButton;
+			path = marqueeLabel;
+			sourceTree = "<group>";
+		};
+		46A14CDE1DD1D67500A01AF6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				46A14CDF1DD1D67500A01AF6 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		46A14CF71DD1D67500A01AF6 /* marqueeLabelTests */ = {
+			isa = PBXGroup;
+			children = (
+				46A14CF81DD1D67500A01AF6 /* marqueeLabelTests.m */,
+				46A14CFA1DD1D67500A01AF6 /* Info.plist */,
+			);
+			path = marqueeLabelTests;
+			sourceTree = "<group>";
+		};
+		46A14D021DD1D67500A01AF6 /* marqueeLabelUITests */ = {
+			isa = PBXGroup;
+			children = (
+				46A14D031DD1D67500A01AF6 /* marqueeLabelUITests.m */,
+				46A14D051DD1D67500A01AF6 /* Info.plist */,
+			);
+			path = marqueeLabelUITests;
+			sourceTree = "<group>";
+		};
+		46A14D111DD1D6FE00A01AF6 /* Marquee Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				46A14D121DD1D71500A01AF6 /* MRMarqueeButtons.h */,
+				46A14D131DD1D71500A01AF6 /* MRMarqueeButtons.m */,
+			);
+			name = "Marquee Buttons";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		46A14CDA1DD1D67400A01AF6 /* Marquee Buttons */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46A14D081DD1D67500A01AF6 /* Build configuration list for PBXNativeTarget "Marquee Buttons" */;
+			buildPhases = (
+				46A14CD71DD1D67400A01AF6 /* Sources */,
+				46A14CD81DD1D67400A01AF6 /* Frameworks */,
+				46A14CD91DD1D67400A01AF6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Marquee Buttons";
+			productName = marqueeLabel;
+			productReference = 46A14CDB1DD1D67400A01AF6 /* Marquee Buttons.app */;
+			productType = "com.apple.product-type.application";
+		};
+		46A14CF31DD1D67500A01AF6 /* Marquee ButtonsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46A14D0B1DD1D67500A01AF6 /* Build configuration list for PBXNativeTarget "Marquee ButtonsTests" */;
+			buildPhases = (
+				46A14CF01DD1D67500A01AF6 /* Sources */,
+				46A14CF11DD1D67500A01AF6 /* Frameworks */,
+				46A14CF21DD1D67500A01AF6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				46A14CF61DD1D67500A01AF6 /* PBXTargetDependency */,
+			);
+			name = "Marquee ButtonsTests";
+			productName = marqueeLabelTests;
+			productReference = 46A14CF41DD1D67500A01AF6 /* Marquee ButtonsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		46A14CFE1DD1D67500A01AF6 /* Marquee ButtonsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46A14D0E1DD1D67500A01AF6 /* Build configuration list for PBXNativeTarget "Marquee ButtonsUITests" */;
+			buildPhases = (
+				46A14CFB1DD1D67500A01AF6 /* Sources */,
+				46A14CFC1DD1D67500A01AF6 /* Frameworks */,
+				46A14CFD1DD1D67500A01AF6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				46A14D011DD1D67500A01AF6 /* PBXTargetDependency */,
+			);
+			name = "Marquee ButtonsUITests";
+			productName = marqueeLabelUITests;
+			productReference = 46A14CFF1DD1D67500A01AF6 /* Marquee ButtonsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		46A14CD31DD1D67400A01AF6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Mayank Rikh";
+				TargetAttributes = {
+					46A14CDA1DD1D67400A01AF6 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					46A14CF31DD1D67500A01AF6 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 46A14CDA1DD1D67400A01AF6;
+					};
+					46A14CFE1DD1D67500A01AF6 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 46A14CDA1DD1D67400A01AF6;
+					};
+				};
+			};
+			buildConfigurationList = 46A14CD61DD1D67400A01AF6 /* Build configuration list for PBXProject "Marquee Buttons" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 46A14CD21DD1D67400A01AF6;
+			productRefGroup = 46A14CDC1DD1D67400A01AF6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				46A14CDA1DD1D67400A01AF6 /* Marquee Buttons */,
+				46A14CF31DD1D67500A01AF6 /* Marquee ButtonsTests */,
+				46A14CFE1DD1D67500A01AF6 /* Marquee ButtonsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		46A14CD91DD1D67400A01AF6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46A14CEE1DD1D67500A01AF6 /* LaunchScreen.storyboard in Resources */,
+				46A14CEB1DD1D67500A01AF6 /* Assets.xcassets in Resources */,
+				46A14CE91DD1D67500A01AF6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46A14CF21DD1D67500A01AF6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46A14CFD1DD1D67500A01AF6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		46A14CD71DD1D67400A01AF6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46A14CE61DD1D67500A01AF6 /* ViewController.m in Sources */,
+				46A14CE31DD1D67500A01AF6 /* AppDelegate.m in Sources */,
+				46A14D141DD1D71500A01AF6 /* MRMarqueeButtons.m in Sources */,
+				46A14CE01DD1D67500A01AF6 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46A14CF01DD1D67500A01AF6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46A14CF91DD1D67500A01AF6 /* marqueeLabelTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46A14CFB1DD1D67500A01AF6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46A14D041DD1D67500A01AF6 /* marqueeLabelUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		46A14CF61DD1D67500A01AF6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 46A14CDA1DD1D67400A01AF6 /* Marquee Buttons */;
+			targetProxy = 46A14CF51DD1D67500A01AF6 /* PBXContainerItemProxy */;
+		};
+		46A14D011DD1D67500A01AF6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 46A14CDA1DD1D67400A01AF6 /* Marquee Buttons */;
+			targetProxy = 46A14D001DD1D67500A01AF6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		46A14CE71DD1D67500A01AF6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				46A14CE81DD1D67500A01AF6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		46A14CEC1DD1D67500A01AF6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				46A14CED1DD1D67500A01AF6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		46A14D061DD1D67500A01AF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		46A14D071DD1D67500A01AF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		46A14D091DD1D67500A01AF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = marqueeLabel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wew.marqueeButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		46A14D0A1DD1D67500A01AF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = marqueeLabel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wew.marqueeButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		46A14D0C1DD1D67500A01AF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = marqueeLabelTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wew.marqueeLabelTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Marquee Buttons.app/Marquee Buttons";
+			};
+			name = Debug;
+		};
+		46A14D0D1DD1D67500A01AF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = marqueeLabelTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wew.marqueeLabelTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Marquee Buttons.app/Marquee Buttons";
+			};
+			name = Release;
+		};
+		46A14D0F1DD1D67500A01AF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = marqueeLabelUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wew.marqueeLabelUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = marqueeLabel;
+			};
+			name = Debug;
+		};
+		46A14D101DD1D67500A01AF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = marqueeLabelUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wew.marqueeLabelUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = marqueeLabel;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		46A14CD61DD1D67400A01AF6 /* Build configuration list for PBXProject "Marquee Buttons" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46A14D061DD1D67500A01AF6 /* Debug */,
+				46A14D071DD1D67500A01AF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46A14D081DD1D67500A01AF6 /* Build configuration list for PBXNativeTarget "Marquee Buttons" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46A14D091DD1D67500A01AF6 /* Debug */,
+				46A14D0A1DD1D67500A01AF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46A14D0B1DD1D67500A01AF6 /* Build configuration list for PBXNativeTarget "Marquee ButtonsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46A14D0C1DD1D67500A01AF6 /* Debug */,
+				46A14D0D1DD1D67500A01AF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46A14D0E1DD1D67500A01AF6 /* Build configuration list for PBXNativeTarget "Marquee ButtonsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46A14D0F1DD1D67500A01AF6 /* Debug */,
+				46A14D101DD1D67500A01AF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 46A14CD31DD1D67400A01AF6 /* Project object */;
+}
