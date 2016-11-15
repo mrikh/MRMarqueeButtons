@@ -7,15 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		46A14CE01DD1D67500A01AF6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 46A14CDF1DD1D67500A01AF6 /* main.m */; };
-		46A14CE31DD1D67500A01AF6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 46A14CE21DD1D67500A01AF6 /* AppDelegate.m */; };
-		46A14CE61DD1D67500A01AF6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 46A14CE51DD1D67500A01AF6 /* ViewController.m */; };
-		46A14CE91DD1D67500A01AF6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46A14CE71DD1D67500A01AF6 /* Main.storyboard */; };
-		46A14CEB1DD1D67500A01AF6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46A14CEA1DD1D67500A01AF6 /* Assets.xcassets */; };
-		46A14CEE1DD1D67500A01AF6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46A14CEC1DD1D67500A01AF6 /* LaunchScreen.storyboard */; };
-		46A14CF91DD1D67500A01AF6 /* MRScrollingReusableButtonsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 46A14CF81DD1D67500A01AF6 /* MRScrollingReusableButtonsTests.m */; };
-		46A14D041DD1D67500A01AF6 /* MRScrollingReusableButtonsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 46A14D031DD1D67500A01AF6 /* MRScrollingReusableButtonsUITests.m */; };
-		46A14D141DD1D71500A01AF6 /* MRScrollingReusableButtons.m in Sources */ = {isa = PBXBuildFile; fileRef = 46A14D131DD1D71500A01AF6 /* MRScrollingReusableButtons.m */; };
+		4663F6CF1DDB604500591D4C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4663F6C31DDB604500591D4C /* AppDelegate.m */; };
+		4663F6D01DDB604500591D4C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4663F6C41DDB604500591D4C /* Assets.xcassets */; };
+		4663F6D11DDB604500591D4C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4663F6C51DDB604500591D4C /* LaunchScreen.storyboard */; };
+		4663F6D21DDB604500591D4C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4663F6C71DDB604500591D4C /* Main.storyboard */; };
+		4663F6D31DDB604500591D4C /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4663F6C91DDB604500591D4C /* Info.plist */; };
+		4663F6D41DDB604500591D4C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4663F6CA1DDB604500591D4C /* main.m */; };
+		4663F6D51DDB604500591D4C /* MRScrollingReusableButtons.m in Sources */ = {isa = PBXBuildFile; fileRef = 4663F6CC1DDB604500591D4C /* MRScrollingReusableButtons.m */; };
+		4663F6D61DDB604500591D4C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4663F6CE1DDB604500591D4C /* ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,24 +35,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4663F6C21DDB604500591D4C /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4663F6C31DDB604500591D4C /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4663F6C41DDB604500591D4C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4663F6C61DDB604500591D4C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4663F6C81DDB604500591D4C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4663F6C91DDB604500591D4C /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4663F6CA1DDB604500591D4C /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4663F6CB1DDB604500591D4C /* MRScrollingReusableButtons.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRScrollingReusableButtons.h; sourceTree = "<group>"; };
+		4663F6CC1DDB604500591D4C /* MRScrollingReusableButtons.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRScrollingReusableButtons.m; sourceTree = "<group>"; };
+		4663F6CD1DDB604500591D4C /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4663F6CE1DDB604500591D4C /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		46A14CDB1DD1D67400A01AF6 /* MRScrollingReusableButtons.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MRScrollingReusableButtons.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		46A14CDF1DD1D67500A01AF6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		46A14CE11DD1D67500A01AF6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		46A14CE21DD1D67500A01AF6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		46A14CE41DD1D67500A01AF6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		46A14CE51DD1D67500A01AF6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		46A14CE81DD1D67500A01AF6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		46A14CEA1DD1D67500A01AF6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		46A14CED1DD1D67500A01AF6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		46A14CEF1DD1D67500A01AF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		46A14CF41DD1D67500A01AF6 /* MRScrollingReusableButtonsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MRScrollingReusableButtonsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		46A14CF81DD1D67500A01AF6 /* MRScrollingReusableButtonsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MRScrollingReusableButtonsTests.m; sourceTree = "<group>"; };
-		46A14CFA1DD1D67500A01AF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		46A14CFF1DD1D67500A01AF6 /* MRScrollingReusableButtonsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MRScrollingReusableButtonsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		46A14D031DD1D67500A01AF6 /* MRScrollingReusableButtonsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MRScrollingReusableButtonsUITests.m; sourceTree = "<group>"; };
-		46A14D051DD1D67500A01AF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		46A14D121DD1D71500A01AF6 /* MRScrollingReusableButtons.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRScrollingReusableButtons.h; sourceTree = "<group>"; };
-		46A14D131DD1D71500A01AF6 /* MRScrollingReusableButtons.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRScrollingReusableButtons.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,12 +76,44 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4663F6C11DDB604500591D4C /* MRScrollingReusableButtons */ = {
+			isa = PBXGroup;
+			children = (
+				4663F6C21DDB604500591D4C /* AppDelegate.h */,
+				4663F6C31DDB604500591D4C /* AppDelegate.m */,
+				4663F6C41DDB604500591D4C /* Assets.xcassets */,
+				4663F6C51DDB604500591D4C /* LaunchScreen.storyboard */,
+				4663F6C71DDB604500591D4C /* Main.storyboard */,
+				4663F6C91DDB604500591D4C /* Info.plist */,
+				4663F6CA1DDB604500591D4C /* main.m */,
+				4663F6CB1DDB604500591D4C /* MRScrollingReusableButtons.h */,
+				4663F6CC1DDB604500591D4C /* MRScrollingReusableButtons.m */,
+				4663F6CD1DDB604500591D4C /* ViewController.h */,
+				4663F6CE1DDB604500591D4C /* ViewController.m */,
+			);
+			path = MRScrollingReusableButtons;
+			sourceTree = "<group>";
+		};
+		4663F6D71DDB605800591D4C /* MRScrollingReusableButtonsTests */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = MRScrollingReusableButtonsTests;
+			sourceTree = "<group>";
+		};
+		4663F6D81DDB606400591D4C /* MRScrollingReusableButtonsUITests */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = MRScrollingReusableButtonsUITests;
+			sourceTree = "<group>";
+		};
 		46A14CD21DD1D67400A01AF6 = {
 			isa = PBXGroup;
 			children = (
-				46A14CDD1DD1D67500A01AF6 /* MRScrollingReusableButtons */,
-				46A14CF71DD1D67500A01AF6 /* MRScrollingReusableButtonsTests */,
-				46A14D021DD1D67500A01AF6 /* MRScrollingReusableButtonsUITests */,
+				4663F6D81DDB606400591D4C /* MRScrollingReusableButtonsUITests */,
+				4663F6D71DDB605800591D4C /* MRScrollingReusableButtonsTests */,
+				4663F6C11DDB604500591D4C /* MRScrollingReusableButtons */,
 				46A14CDC1DD1D67400A01AF6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -99,61 +126,6 @@
 				46A14CFF1DD1D67500A01AF6 /* MRScrollingReusableButtonsUITests.xctest */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		46A14CDD1DD1D67500A01AF6 /* MRScrollingReusableButtons */ = {
-			isa = PBXGroup;
-			children = (
-				46A14D111DD1D6FE00A01AF6 /* MRScrollingReusableButtons */,
-				46A14CE11DD1D67500A01AF6 /* AppDelegate.h */,
-				46A14CE21DD1D67500A01AF6 /* AppDelegate.m */,
-				46A14CE41DD1D67500A01AF6 /* ViewController.h */,
-				46A14CE51DD1D67500A01AF6 /* ViewController.m */,
-				46A14CE71DD1D67500A01AF6 /* Main.storyboard */,
-				46A14CEA1DD1D67500A01AF6 /* Assets.xcassets */,
-				46A14CEC1DD1D67500A01AF6 /* LaunchScreen.storyboard */,
-				46A14CEF1DD1D67500A01AF6 /* Info.plist */,
-				46A14CDE1DD1D67500A01AF6 /* Supporting Files */,
-			);
-			name = MRScrollingReusableButtons;
-			path = marqueeLabel;
-			sourceTree = "<group>";
-		};
-		46A14CDE1DD1D67500A01AF6 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				46A14CDF1DD1D67500A01AF6 /* main.m */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		46A14CF71DD1D67500A01AF6 /* MRScrollingReusableButtonsTests */ = {
-			isa = PBXGroup;
-			children = (
-				46A14CF81DD1D67500A01AF6 /* MRScrollingReusableButtonsTests.m */,
-				46A14CFA1DD1D67500A01AF6 /* Info.plist */,
-			);
-			name = MRScrollingReusableButtonsTests;
-			path = marqueeLabelTests;
-			sourceTree = "<group>";
-		};
-		46A14D021DD1D67500A01AF6 /* MRScrollingReusableButtonsUITests */ = {
-			isa = PBXGroup;
-			children = (
-				46A14D031DD1D67500A01AF6 /* MRScrollingReusableButtonsUITests.m */,
-				46A14D051DD1D67500A01AF6 /* Info.plist */,
-			);
-			name = MRScrollingReusableButtonsUITests;
-			path = marqueeLabelUITests;
-			sourceTree = "<group>";
-		};
-		46A14D111DD1D6FE00A01AF6 /* MRScrollingReusableButtons */ = {
-			isa = PBXGroup;
-			children = (
-				46A14D121DD1D71500A01AF6 /* MRScrollingReusableButtons.h */,
-				46A14D131DD1D71500A01AF6 /* MRScrollingReusableButtons.m */,
-			);
-			name = MRScrollingReusableButtons;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,9 +232,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				46A14CEE1DD1D67500A01AF6 /* LaunchScreen.storyboard in Resources */,
-				46A14CEB1DD1D67500A01AF6 /* Assets.xcassets in Resources */,
-				46A14CE91DD1D67500A01AF6 /* Main.storyboard in Resources */,
+				4663F6D01DDB604500591D4C /* Assets.xcassets in Resources */,
+				4663F6D21DDB604500591D4C /* Main.storyboard in Resources */,
+				4663F6D11DDB604500591D4C /* LaunchScreen.storyboard in Resources */,
+				4663F6D31DDB604500591D4C /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,10 +260,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				46A14CE61DD1D67500A01AF6 /* ViewController.m in Sources */,
-				46A14CE31DD1D67500A01AF6 /* AppDelegate.m in Sources */,
-				46A14D141DD1D71500A01AF6 /* MRScrollingReusableButtons.m in Sources */,
-				46A14CE01DD1D67500A01AF6 /* main.m in Sources */,
+				4663F6D61DDB604500591D4C /* ViewController.m in Sources */,
+				4663F6D41DDB604500591D4C /* main.m in Sources */,
+				4663F6D51DDB604500591D4C /* MRScrollingReusableButtons.m in Sources */,
+				4663F6CF1DDB604500591D4C /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,7 +271,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				46A14CF91DD1D67500A01AF6 /* MRScrollingReusableButtonsTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,7 +278,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				46A14D041DD1D67500A01AF6 /* MRScrollingReusableButtonsUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -326,20 +297,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		46A14CE71DD1D67500A01AF6 /* Main.storyboard */ = {
+		4663F6C51DDB604500591D4C /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				46A14CE81DD1D67500A01AF6 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		46A14CEC1DD1D67500A01AF6 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				46A14CED1DD1D67500A01AF6 /* Base */,
+				4663F6C61DDB604500591D4C /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		4663F6C71DDB604500591D4C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4663F6C81DDB604500591D4C /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -438,7 +409,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = NL38PKJFTM;
-				INFOPLIST_FILE = marqueeLabel/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/MRScrollingReusableButtons/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = wew.marqueeButton;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -450,7 +421,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = NL38PKJFTM;
-				INFOPLIST_FILE = marqueeLabel/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/MRScrollingReusableButtons/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = wew.marqueeButton;
 				PRODUCT_NAME = "$(TARGET_NAME)";
