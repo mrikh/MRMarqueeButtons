@@ -1,6 +1,6 @@
 //
 //  ViewController.h
-//  marqueeLabel
+//  MRScrollingReusableButtons
 //
 //  Created by Mayank Rikh on 08/11/16.
 //  Copyright © 2016 Mayank Rikh. All rights reserved.

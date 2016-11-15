@@ -1,14 +1,14 @@
 //
-//  MRMarqueeButtons.m
-//  marqueeButtons
+//  MRScrollingReusableButtons.m
+//  MRScrollingReusableButtons
 //
 //  Created by Mayank Rikh on 08/11/16.
 //  Copyright © 2016 Mayank Rikh. All rights reserved.
 //
 
-#import "MRMarqueeButtons.h"
+#import "MRScrollingReusableButtons.h"
 
-@interface MRMarqueeButtons(){
+@interface MRScrollingReusableButtons(){
     
     NSUInteger counter;
     
@@ -19,7 +19,7 @@
 
 @end
 
-@implementation MRMarqueeButtons
+@implementation MRScrollingReusableButtons
 
 -(instancetype)initOnView:(UIView *)view withArray:(NSArray *)array{
     

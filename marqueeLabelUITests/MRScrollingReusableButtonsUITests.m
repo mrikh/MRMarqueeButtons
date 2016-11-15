@@ -8,7 +8,7 @@
 
 #import <XCTest/XCTest.h>
 
-@interface marqueeLabelUITests : XCTestCase
+@interface MRScrollingReusableButtonsUITests : XCTestCase
 
 @end
 

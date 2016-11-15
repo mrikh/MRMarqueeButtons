@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "46A14CDA1DD1D67400A01AF6"
-               BuildableName = "Marquee Buttons.app"
-               BlueprintName = "Marquee Buttons"
-               ReferencedContainer = "container:Marquee Buttons.xcodeproj">
+               BuildableName = "MRScrollingReusableButtons.app"
+               BlueprintName = "MRScrollingReusableButtons"
+               ReferencedContainer = "container:MRScrollingReusableButtons.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "46A14CF31DD1D67500A01AF6"
-               BuildableName = "Marquee ButtonsTests.xctest"
-               BlueprintName = "Marquee ButtonsTests"
-               ReferencedContainer = "container:Marquee Buttons.xcodeproj">
+               BuildableName = "MRScrollingReusableButtonsTests.xctest"
+               BlueprintName = "MRScrollingReusableButtonsTests"
+               ReferencedContainer = "container:MRScrollingReusableButtons.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -43,9 +43,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "46A14CFE1DD1D67500A01AF6"
-               BuildableName = "Marquee ButtonsUITests.xctest"
-               BlueprintName = "Marquee ButtonsUITests"
-               ReferencedContainer = "container:Marquee Buttons.xcodeproj">
+               BuildableName = "MRScrollingReusableButtonsUITests.xctest"
+               BlueprintName = "MRScrollingReusableButtonsUITests"
+               ReferencedContainer = "container:MRScrollingReusableButtons.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -53,9 +53,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "46A14CDA1DD1D67400A01AF6"
-            BuildableName = "Marquee Buttons.app"
-            BlueprintName = "Marquee Buttons"
-            ReferencedContainer = "container:Marquee Buttons.xcodeproj">
+            BuildableName = "MRScrollingReusableButtons.app"
+            BlueprintName = "MRScrollingReusableButtons"
+            ReferencedContainer = "container:MRScrollingReusableButtons.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -76,9 +76,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "46A14CDA1DD1D67400A01AF6"
-            BuildableName = "Marquee Buttons.app"
-            BlueprintName = "Marquee Buttons"
-            ReferencedContainer = "container:Marquee Buttons.xcodeproj">
+            BuildableName = "MRScrollingReusableButtons.app"
+            BlueprintName = "MRScrollingReusableButtons"
+            ReferencedContainer = "container:MRScrollingReusableButtons.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -95,9 +95,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "46A14CDA1DD1D67400A01AF6"
-            BuildableName = "Marquee Buttons.app"
-            BlueprintName = "Marquee Buttons"
-            ReferencedContainer = "container:Marquee Buttons.xcodeproj">
+            BuildableName = "MRScrollingReusableButtons.app"
+            BlueprintName = "MRScrollingReusableButtons"
+            ReferencedContainer = "container:MRScrollingReusableButtons.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

@@ -1,15 +1,15 @@
 //
 //  ViewController.m
-//  marqueeLabel
+//  MRScrollingReusableButtons
 //
 //  Created by Mayank Rikh on 08/11/16.
 //  Copyright © 2016 Mayank Rikh. All rights reserved.
 //
 
 #import "ViewController.h"
-#import "MRMarqueeButtons.h"
+#import "MRScrollingReusableButtons.h"
 
-@interface ViewController () <MRMarqueeButtonsDelegate>
+@interface ViewController () <MRScrollingReusableButtonsDelegate>
 
 @end
 
@@ -31,7 +31,7 @@
     
     NSArray *stringsArray = @[@"Hello",@"Work!",@"OMG",@"Is it fine?",@"Please :D"];
     
-    MRMarqueeButtons *labels = [[MRMarqueeButtons alloc] initOnView:self.view withArray:stringsArray];
+    MRScrollingReusableButtons *labels = [[MRScrollingReusableButtons alloc] initOnView:self.view withArray:stringsArray];
     
     labels.delegate = self;
     
