@@ -9,12 +9,12 @@ You can show the buttons on any view and it will display a sort of ticker based 
   * Remove truncation if required by user and automatically calculate height.
   * Allow user to set set duration of label visibility
 
-##How to:-
+## How to:-
 To use this, simply download the whole project and drag and drop the marqueeButton group folder to your own project.
 
 ![Alt Text](https://thumbs.gfycat.com/WhichOpenCrustacean-size_restricted.gif)
 
-######Use the below code segment anywhere to show the marquee animation:
+###### Use the below code segment anywhere to show the marquee animation:
     
     NSArray *stringsArray = @[@"Hello",@"Work!",@"OMG",@"Is it fine?",@"Please :D"];
     
@@ -24,7 +24,7 @@ To use this, simply download the whole project and drag and drop the marqueeButt
     
     [labels startAnimating];
    
-######To call the delegate-
+###### To call the delegate-
 
     -(void)buttonPressed:(UIButton *)sender{
     
